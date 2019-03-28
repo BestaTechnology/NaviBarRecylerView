@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_176dp"
+    android:background="@color/blue">
+
+
+    <ImageView
+        android:layout_width="@dimen/dimen_100dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:id="@+id/imgv_id"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:layout_marginTop="@dimen/dimen_15dp"
+        android:layout_marginBottom="@dimen/dimen_5dp"
+        android:src="@drawable/iphone"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_name_here"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimen_17sp"
+        android:id="@+id/tv_name"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_mail"
+        android:text="@string/relinns_gmail_com"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:textSize="@dimen/dimen_14sp"/>
+
+
+
+</LinearLayout>

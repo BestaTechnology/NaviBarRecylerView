@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NaviBarRecylerView</string>
+    <string name="profile_name_here">Profile Name </string>
+    <string name="relinns_gmail_com">Relinns@gmail.com</string>
+    <string name="this_is_dummy_text">This is Dummy Text</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

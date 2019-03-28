@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Camera"
+        android:id="@+id/camera_id"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_camera"
+        android:orderInCategory="100"/>
+
+    <item android:title="Gallery"
+        android:id="@+id/gallery_id"
+        android:icon="@drawable/ic_gallery"
+        app:showAsAction="never"
+        android:orderInCategory="101"/>
+
+    <item android:title="Bluetooth"
+        android:id="@+id/bluetooth_id"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_bluetooth"
+        android:orderInCategory="102"/>
+
+    <item android:title="Wifi"
+        android:id="@+id/wifi_id"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_wifi"
+        android:orderInCategory="103"/>
+
+    <item android:title="Share"
+        android:id="@+id/share_id"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_wifi"
+        android:orderInCategory="104"/>
+
+    <item android:title="Settings"
+        android:id="@+id/setting_id"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_settings"
+        android:orderInCategory="105"/>
+    <item android:title="Logout"
+        android:id="@+id/logout_id"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_person_outline"
+        android:orderInCategory="106"/>
+</menu>
